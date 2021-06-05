@@ -14,7 +14,8 @@ class EmailAddressParser
     email_array = @@email_address.split(", ")
   end
 
-  #expect(EmailAddressParser.new("avi@test.com, arel@test.com").parse).to eq#(["avi@test.com", "arel@test.com"])
+          #expected: ["avi@test.com", "arel@test.com"]
+            #got: ["avi@test.com arel@test.com"]
 
 
 
