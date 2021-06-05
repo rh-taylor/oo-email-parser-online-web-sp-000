@@ -11,7 +11,7 @@ class EmailAddressParser
   end
   
   def parse
-    email_array = @@email_address.split(", ")
+    email_array = @@email_address.split(", " || "  "
   end
 
           #expected: ["avi@test.com", "arel@test.com"]
